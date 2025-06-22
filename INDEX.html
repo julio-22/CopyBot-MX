@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CopyBot MX 🧠</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <main>
+    <h1>🧠 CopyBot MX</h1>
+    <p>Crea mensajes irresistibles para tu negocio con inteligencia artificial</p>
+
+    <form id="miFormulario">
+      <label for="giro">¿Qué tipo de negocio tienes?</label>
+      <select id="giro" required>
+        <option value="restaurante">Restaurante</option>
+        <option value="estética">Estética</option>
+        <option value="consultorio">Consultorio</option>
+        <option value="ropa">Ropa</option>
+        <option value="educación">Educación</option>
+      </select>
+
+      <label for="tono">¿Qué tono quieres usar?</label>
+      <select id="tono" required>
+        <option value="divertido">Divertido</option>
+        <option value="urgente">Urgente</option>
+        <option value="formal">Formal</option>
+        <option value="elegante">Elegante</option>
+      </select>
+
+      <label for="objetivo">¿Qué quieres lograr?</label>
+      <select id="objetivo" required>
+        <option value="vender">Vender</option>
+        <option value="agradecer">Agradecer</option>
+        <option value="anunciar">Anunciar</option>
+      </select>
+
+      <button type="submit">🎯 Generar mensaje</button>
+    </form>
+
+    <section id="output">
+      <h2>Tu mensaje generado:</h2>
+      <pre id="respuesta">...</pre>
+    </section>
+  </main>
+</body>
+</html>
